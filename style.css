@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #ffdeba;
+    height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.left-side, .right-side {
+    width: 50%;
+}
+
+.left-side {
+    border: 3px solid red;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.name-box {
+    border: 3px solid purple;
+    width: 100%;
+    height: 40px;
+    /* margin-top: 50px; */
+    text-align: center;
+    font-family: "Oxygen", sans-serif;
+}
+
+.pronoun-box {
+    border: 3px solid black;
+    width: 50%;
+    height: 40px;
+    margin-top: 30px;
+    text-align: left;
+
+}
+
+.image-container {
+    border: 3px solid black;
+    width: 90%;
+    height: 400px;
+    margin-top: 50px;
+
+
+}
+
+.text-box {
+    border: 3px solid black;
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.right-side {
+    border: 3px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-box {
+    border: 3px solid red;
+    width: 300px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.style-box {
+    border: 3px solid black;
+    width: 400px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.style-text-box {
+    border: 3px solid gray;
+    width: 390px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.education-box {
+    border: 3px solid green;
+    width: 300px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.year-box {
+    border: 3px solid black;
+    width: 100px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.degree-box {
+    border: 3px solid blue;
+    width: 250px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.university-box {
+    border: 3px solid black;
+    width: 250px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 20px;
+
+}
+
+.award-box {
+   border: 3px solid green;
+   width: 300px;
+   height: 40px;
+   margin-left: 80px;
+   margin-top: 20px; 
+}
+
+.experience-box {
+    border: 3px solid blue;
+    width: 300px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.experience-year-box {
+    border: 3px solid black;
+    width: 100px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.experience-degree-box {
+    border: 3px solid pink;
+    width: 250px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.experience-text-box {
+    border: 3px solid red;
+    width: 390px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.button-box {
+    border: 3px solid cyan;
+    width: 150px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.button-box button {
+    width: 150px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 8px;
+    justify-content: flex-end;
+
+}
+
+
+
