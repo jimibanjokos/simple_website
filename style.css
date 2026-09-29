@@ -7,7 +7,7 @@
 .container {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    /* align-items: stretch; */
     background-color: #ffdeba;
     height: 100vh;
     padding-left: 5%;
@@ -20,7 +20,6 @@
 }
 
 .left-side {
-    border: 3px solid red;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -29,38 +28,49 @@
 }
 
 .name-box {
-    border: 3px solid purple;
     width: 100%;
-    height: 40px;
-    /* margin-top: 50px; */
     text-align: center;
+}
+
+.name-box h1 {
+    text-transform: uppercase;
     font-family: "Oxygen", sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
 }
 
 .pronoun-box {
-    border: 3px solid black;
     width: 50%;
-    height: 40px;
     margin-top: 30px;
-    text-align: left;
+    text-align: center;
+}
 
+.pronoun-box h3 {
+    text-transform: uppercase;
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
 }
 
 .image-container {
-    border: 3px solid black;
     width: 90%;
-    height: 400px;
     margin-top: 50px;
+}
 
-
+.image-container img {
+    width: 100%;
+    border-radius: 2.8125em;
 }
 
 .text-box {
-    border: 3px solid black;
     width: 100%;
-    height: 40px;
     margin-top: 50px;
     text-align: center;
+}
+
+.text-box h2 {
+    font-family: "Oxygen", sans-serif;
+    text-transform: uppercase;
 }
 
 .right-side {
@@ -77,6 +87,7 @@
     width: 50%;
     height: 35px;
 }
+
 
 .style-box {
     border: 3px solid black;
